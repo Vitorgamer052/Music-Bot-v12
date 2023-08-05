@@ -20,7 +20,7 @@ module.exports = (client) => {
                 client.commands.set(pull.name, pull);
                 table.addRow(file, '✅');
             } else {
-                table.addRow(file, `❌  Somethings is missing in this file.`);
+                table.addRow(file, `❌  Algo está faltando neste arquivo.`);
                 continue;
             }
     
